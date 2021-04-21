@@ -56,7 +56,6 @@ export class KeyList extends Lightning.Component {
         }
     }
     _getFocused() {
-   //     console.log('Pressed', this.children[this.index].item.label);
         return this.children[this.index]
     }
 }

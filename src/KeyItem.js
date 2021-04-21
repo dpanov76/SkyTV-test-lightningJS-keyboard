@@ -29,11 +29,6 @@ export class KeyItem extends Lightning.Component {
         this.color = 0xff1f1f1f
         this.tag('Label').color = 0xffffffff
     }
-    // $changeMessage(message) {
-    //     this.tag('Message').patch({
-    //         text: { text: message }
-    //     });
-    // }
     _getFocused() {
         return this.tag('Keys')
     }
@@ -49,7 +44,6 @@ export class KeyItem extends Lightning.Component {
             default:
             message.push(this.item.label);
         }
-        console.log(message);
         this.fireAncestors('$changeMessage', message.join().replace(/,/g, ''));
     }
 }
