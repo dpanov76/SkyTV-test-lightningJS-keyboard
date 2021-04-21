@@ -1,0 +1,7 @@
+{
+  "name": "com.keyboard",
+  "description": "keyboard_app",
+  "dependencies": {
+    "@lightningjs/sdk": "^4.3.0"
+  }
+}
